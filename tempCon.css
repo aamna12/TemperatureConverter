@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    background-color: rgb(80, 113, 114);
+    font-family: sans-serif;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container{
+    height:4rem;
+    width:25rem;
+    background-color: aliceblue;
+    padding:10px;
+    box-shadow:0px 5px 16px 5px rgb(65, 63, 63);
+    border-radius: 7px;
+    position:absolute;
+    top:260px;
+    left:35%;
+    display:flex;
+    justify-content:space-evenly;
+
+}
+
+.celsiusContainer, .fahrenhietContainer{
+color:rgb(59, 87, 88);
+font-weight: bold;
+    margin:5px;
+    padding:2px;
+}
+
+
+input{
+margin-top:3px;
+height:20px;
+border:1px solid black;
+border-radius: 4px;
+padding:5px;
+}
